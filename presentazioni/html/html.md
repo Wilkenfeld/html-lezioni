@@ -5,7 +5,15 @@ _class: lead
 paginate: true
 backgroundColor: #fff
 ---
+
 ![height: auto](images/html5-logo.png)
+
+<style>
+    section.attenzione {
+        background-color: #f7da00;
+        color: yellow;
+    }
+</style>
 
 ---
 
@@ -142,10 +150,12 @@ if (username.length > 4 && username.length < 16) {
 
 - Rappresenta un paragrafo
 - Normalmente contiene solo testo
-- **I ritorni a capo non vengono visualizzati dall'utente** 
+- **I ritorni a capo non vengono visualizzati dall'utente**
+
 ```html
-<p>Questo è un paragrafo.
-Anche se sono andato a capo, nella pagina finale non si vedrà
+<p>
+  Questo è un paragrafo. Anche se sono andato a capo, nella pagina finale non si
+  vedrà
 </p>
 ```
 
@@ -165,6 +175,9 @@ Anche se sono andato a capo, nella pagina finale non si vedrà
 ```
 
 ---
+
 ### Esercizio
 
 Crea una pagina web composta da un titolo, un paragrafo di due caporiga separati.
+
+[Soluzione](excercises/1.html)
